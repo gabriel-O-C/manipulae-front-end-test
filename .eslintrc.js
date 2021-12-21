@@ -20,5 +20,6 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': 'off',
     'func-names': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
