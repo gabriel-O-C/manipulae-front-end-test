@@ -5,7 +5,8 @@ export const theme = {
   },
   colors: {
     black: '#080808',
-    gray: '#C4C4C4',
+    gray: '#ccc',
+    white: '#ffffff',
   },
   sizes: {
     xlarge: '4.5rem',

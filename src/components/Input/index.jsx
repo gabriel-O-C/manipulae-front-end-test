@@ -3,10 +3,12 @@ import * as Styled from './styles';
 
 const Input = function () {
   return (
-    <Styled.Input
-      type="search"
-      placeholder="O que você quer ouvir agora?"
-    />
+    <Styled.Wrapper>
+      <Styled.Input
+        type="search"
+        placeholder="O que você quer ouvir agora?"
+      />
+    </Styled.Wrapper>
   );
 };
 
