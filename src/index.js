@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider } from 'styled-components';
-// import App from './App';
 import { GlobalStyles } from './styles/global.styles';
 import { theme } from './styles/theme';
-import Home from './pages/Home/Home';
+import AppRoutes from './Routes/AppRoutes';
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Home />
+      <AppRoutes />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root'),
